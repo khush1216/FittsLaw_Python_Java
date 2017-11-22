@@ -1,0 +1,335 @@
+
+body {
+  min-width: 960px;
+}
+
+.mainComponent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11 {
+  position: relative;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.mainComponent .grid_1 {
+  width: 60px;
+}
+
+.mainComponent .grid_2 {
+  width: 140px;
+}
+
+.mainComponent .grid_3 {
+  width: 220px;
+}
+
+.mainComponent .grid_4 {
+  width: 300px;
+}
+
+.mainComponent .grid_5 {
+  width: 380px;
+}
+
+.mainComponent .grid_6 {
+  width: 460px;
+}
+
+.mainComponent .grid_7 {
+  width: 540px;
+}
+
+.mainComponent .grid_8 {
+  width: 620px;
+}
+
+.mainComponent .grid_9 {
+  width: 700px;
+}
+
+.mainComponent .grid_10 {
+  width: 780px;
+}
+
+.mainComponent .grid_11 {
+  width: 860px;
+}
+
+.mainComponent .grid_12 {
+  width: 940px;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.mainComponent .prefix_1 {
+  padding-left: 80px;
+}
+
+.mainComponent .prefix_2 {
+  padding-left: 160px;
+}
+
+.mainComponent .prefix_3 {
+  padding-left: 240px;
+}
+
+.mainComponent .prefix_4 {
+  padding-left: 320px;
+}
+
+.mainComponent .prefix_5 {
+  padding-left: 400px;
+}
+
+.mainComponent .prefix_6 {
+  padding-left: 480px;
+}
+
+.mainComponent .prefix_7 {
+  padding-left: 560px;
+}
+
+.mainComponent .prefix_8 {
+  padding-left: 640px;
+}
+
+.mainComponent .prefix_9 {
+  padding-left: 720px;
+}
+
+.mainComponent .prefix_10 {
+  padding-left: 800px;
+}
+
+.mainComponent .prefix_11 {
+  padding-left: 880px;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.mainComponent .suffix_1 {
+  padding-right: 80px;
+}
+
+.mainComponent .suffix_2 {
+  padding-right: 160px;
+}
+
+.mainComponent .suffix_3 {
+  padding-right: 240px;
+}
+
+.mainComponent .suffix_4 {
+  padding-right: 320px;
+}
+
+.mainComponent .suffix_5 {
+  padding-right: 400px;
+}
+
+.mainComponent .suffix_6 {
+  padding-right: 480px;
+}
+
+.mainComponent .suffix_7 {
+  padding-right: 560px;
+}
+
+.mainComponent .suffix_8 {
+  padding-right: 640px;
+}
+
+.mainComponent .suffix_9 {
+  padding-right: 720px;
+}
+
+.mainComponent .suffix_10 {
+  padding-right: 800px;
+}
+
+.mainComponent .suffix_11 {
+  padding-right: 880px;
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.mainComponent .push_1 {
+  left: 80px;
+}
+
+.mainComponent .push_2 {
+  left: 160px;
+}
+
+.mainComponent .push_3 {
+  left: 240px;
+}
+
+.mainComponent .push_4 {
+  left: 320px;
+}
+
+.mainComponent .push_5 {
+  left: 400px;
+}
+
+.mainComponent .push_6 {
+  left: 480px;
+}
+
+.mainComponent .push_7 {
+  left: 560px;
+}
+
+.mainComponent .push_8 {
+  left: 640px;
+}
+
+.mainComponent .push_9 {
+  left: 720px;
+}
+
+.mainComponent .push_10 {
+  left: 800px;
+}
+
+.mainComponent .push_11 {
+  left: 880px;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.mainComponent .pull_1 {
+  left: -80px;
+}
+
+.mainComponent .pull_2 {
+  left: -160px;
+}
+
+.mainComponent .pull_3 {
+  left: -240px;
+}
+
+.mainComponent .pull_4 {
+  left: -320px;
+}
+
+.mainComponent .pull_5 {
+  left: -400px;
+}
+
+.mainComponent .pull_6 {
+  left: -480px;
+}
+
+.mainComponent .pull_7 {
+  left: -560px;
+}
+
+.mainComponent .pull_8 {
+  left: -640px;
+}
+
+.mainComponent .pull_9 {
+  left: -720px;
+}
+
+.mainComponent .pull_10 {
+  left: -800px;
+}
+
+.mainComponent .pull_11 {
+  left: -880px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.mainComponent:before,
+.mainComponent:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.mainComponent:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.mainComponent {
+  zoom: 1;
+}

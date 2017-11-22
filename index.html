@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>Fitt's Law</title>
+		<script type="text/javascript" src="d3/d3.v2.js"></script>
+		<script type="text/javascript" src="d3/lib/jquery/jquery.min.js"></script>
+	    <script type="text/javascript" src="d3/lib/jquery-ui/jquery-ui.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+		
+		<link type="text/css" rel="stylesheet" href="css/FittsStyle1.css"/>
+		<link type="text/css" rel="stylesheet" href="css/FittsStyle2.css"/>
+	</head>
+	<body>
+	<h2 style="text-align: center;padding-top: 18px;">Simple Implementation of Fitt's Law</h2>
+		<div class="mainComponent" style ="margin-top: 51px;">
+			
+			<div class="clear"></div>
+			<div class="grid_4 border sans" style="height: 378px; padding: 10px; width: 278px; border:none">
+				<p>
+				
+				<p><form style = "padding-left: 24px;
+    box-shadow: -14px 3px 4px #888888;
+    padding-bottom: 14px;">
+				SELECT A DISTANCE:<br> 
+						<input type="radio" name="distance1" id="sliderDistance1" value="20" > 208<br>
+						<input type="radio" name="distance1" id ="sliderDistance2" value="50"> 250<br>
+						<input type="radio" name="distance1" id="sliderDistance3" value="20" > 300<br>						
+						</form></p>		
+				</p>
+				<p></p>
+				<p>
+				<p>
+				<form style = "padding-left: 24px;
+    box-shadow: -14px 3px 4px #888888;
+    padding-bottom: 14px;">
+				SELECT A WIDTH:<br>
+						<input type="radio" name="width1" id="widthOpt1" value="20" > 20<br>
+						<input type="radio" name="width1" id ="widthOpt2" value="50"> 50<br></form></p>
+					 </p>
+				<div style = "padding-left: 24px;
+    box-shadow: -14px 3px 4px #888888;
+    padding-bottom: 14px;">
+				<p>
+					<div id="dataSets" style="color:black;"></div>
+					<button id="addDataSetButton" type="button">NEW DATA</button>
+				</p>
+				<div><button type="button" id="dataForGraph2">DOWNLOAD THROUGHPUT DATA </button>
+</div>
+				</div>
+				
+				<button type="button" id="updatePlot" style="margin-top: 11%;">PLOT GRAPHS</button>
+				<button type="button" id="downloadData">DATA DUMP</button>
+			</div>
+			
+			
+			<div class="grid_8">
+				<div id="movePointer" class="sans"></div>
+				<div>
+				<p class="caption" style="text-align:center;">
+					MULTI-DIRECTIONAL TAPPING TASK.
+				</p>
+				</div>
+			</div>
+				<p></p>
+					</div>
+			<div class="clear"></div>
+			<div class="prefix_1 grid_7" id="graphs" style="margin-left: 38%; display:none;">
+				<div id="scatterEffective" class="sans"></div>
+				<p class="caption">
+					GRAPH 1: Plotted using d3 JS. Mean Time vs Index of Difficulty. <br>
+					Here ID is calculated and kept as a constant for each set of width and distance pair.<br>
+				</p>
+				<div id="scatterEffective2" class="sans"></div>
+
+			</div>
+			<script type="text/javascript" src="js/FittsJSF.js"></script>
+		</div>
+	</body>
+</html>
